@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--1. los metadatos-->
+<meta charset="UTF-8">
+<meta name="description" content="fundación para niños con cancer">
+<meta name="keywords" content="ayudando a quienes lo necesitan" >
+<meta name="author" content=“Ivan Vicencio“>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--2. titulo de la pagina que aparece en el buscador-->    
+<title>Osama docs</title>
+
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+<!--3. enlace al archivo CSS-->
+<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<!--Hasta aca va el head-->
+<body>
+<header>
+    <header class="header">
+        <div class="container header-inner">
+        <a   class="logo" href="#">
+        <img src="IMG/ChatGPT Image 20 nov 2025, 11_57_57 a.m..png" alt="Logo Foundation Osama docs" height="100" />
+       
+    </a>
+
+    <nav class="Inicio">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+            <li><a class="btn-dona" href="https://docs.google.com/forms/d/e/1FAIpQLSfqZakAXtTPzuKsViz2CslLMV-MNXmVikUb8KixrgJTwh3ndQ/viewform?usp=dialog">Dona</a></li>
+        </ul>
+    </nav>
+    </div>
+    </header>
+
+<main>
+
+  <!--Hero con Video-->
+    <section class="hero video-hero">
+      <video class="hero-video"  id="heroVideo" autoplay loop playsinline>
+        <source src="IMG/ScreenRecording_11-11-2025 12-46-41_1.mov" type="video/mp4"/>
+      </video>
+
+      <div class="hero-overlay"></div>
+
+      <div class="hero-content container">
+        <div class="hero-text">
+          <h1>Donde la esperanza nunca se rinde</h1>
+          <p>La fundación salva vidas a seres sin esperanza y los saca adelante.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfqZakAXtTPzuKsViz2CslLMV-MNXmVikUb8KixrgJTwh3ndQ/viewform?usp=dialog">Dona</a>
+          </div>
+        </div>
+      </section>
+
+
+      <div class="stats-grid">
+          <div class="stat">
+            <div class="stat-number">+500</div>
+            <div class="stat-label">Niñas y niños apoyados con tratamientos y acompañamiento.</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">+80</div>
+            <div class="stat-label">Doctores, psicólogos y especialistas aliados en oncología pediátrica.</div>
+          </div>
+          <div class="stat">
+            <div class="stat-number">+15</div>
+            <div class="stat-label">Casas de apoyo y centros de atención en distintos estados de México.</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="projects container">
+      <h2>Proyectos en Mexico</h2>
+      <p class="lead">Llevamos esperanza, tratamientos y apoyo integral a niñas y niños con cáncer en distintas regiones del país. Estos son algunos de nuestros proyectos:
+</p>
+
+      <div class="project-cards">
+        <article class="card">
+          <div class="card-img" id="Cdmx"></div>
+          <div class="card-body">
+            <h3>Ciudad de México — Centro de Atención Integral</h3>
+            <p>Diagnóstico temprano, acompañamiento médico y apoyo emocional para familias que enfrentan el cáncer infantil.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img" id="Guadalajara"></div>
+          <div class="card-body">
+            <h3>Guadalajara, Jalisco — Casa de Respiro y Apoyo</h3>
+            <p>Hospedaje temporal, alimentación y transporte para niños que viajan desde otras comunidades para recibir quimioterapias.</p>
+          </div>
+        </article>
+        <article class="card">
+          <div class="card-img" id="Monterrey"></div>
+          <div class="card-body">
+            <h3>Monterrey, Nuevo León — Programa de Tratamiento y Tutorías</h3>
+            <p>Becas para tratamientos, apoyo educativo para que los niños continúen sus estudios y seguimiento psicológico especializado.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+
+        <section id="contacto" class="newsletter">
+      <div class="container newsletter-inner">
+        <div>
+          <h2>¡No te pierdas lo último!</h2>
+          <p>Suscríbete para recibir noticias e historias.</p>
+        </div>
+        <form id="subscribeForm" class="subscribe-form" novalidate>
+          <input id="email" type="email" placeholder="Tu correo electrónico" required />
+          <button class="btn primary" type="submit">Suscribirme</button>
+        </form>
+        <div id="formMessage" class="form-message"></div>
+    
+    
+
+</main>
+<footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <h4>Sobre la fundación</h4>
+        <p>Pequeños guerreros, grandes corazones.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Enlaces</h4>
+        <ul>
+          <li><a href="#quienes">Quiénes somos</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#impacto">Impacto</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contacto</h4>
+        <address>
+          Calle Cuautepec barrio bajo 4-A<br/>Ciudad de México, México<br/>
+          <a href="mailto:yurintelligence@outlook.com">i.vicencio@ebc.edu.mx</a>
+        </address>
+      </div>
+    </div>
+    <!-- Redes sociales -->
+  <div class="footer-social">
+    <div class="container social-icons">
+      <a href="https://www.facebook.com/freshyboy23" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+      <a href="https://www.instagram.com/freshhyyyyyyy/" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://www.youtube.com/@freshyyyyboy" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+      <a href="https://www.linkedin.com/in/ivan-vicencio-rivera-269172357/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      <a href="https://x.com/freshyusoslimey" aria-label="X (Twitter)"><i class="fa-brands fa-x-twitter"></i></a>
+     
+    </div>
+  </div>
+    <div class="footer-bottom">
+      <div class="container">©️ <span id="anio"></span> Fundación Osama Docs n</div>
+    </div>
+  </footer>
+
+</script src="JS/script.js"></body></script>
+
+</body>
+</html> 
+<!--Me costo mucho generar mi video y poderlo pegar en mi pagina web, me desespere un poco pero estoy satisfecho con el resultado-->
